@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "3975d235-21bf-4903-b3fa-a6f5981e4ef6",
+        "regional": "767e8629-97f9-43db-8e11-5379fa5b94f2",
+        "name": "Psicologia",
+        "description": ""
+    },
+    {
+        "_id": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+        "regional": "767e8629-97f9-43db-8e11-5379fa5b94f2",
+        "name": "Serviço Social",
+        "description": ""
+    },
+    {
+        "_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "regional": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Antropologia",
+        "description": ""
+    }
+]

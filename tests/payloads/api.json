@@ -1,0 +1,65 @@
+// POST /api/v1/regionals
+{
+    "name": "Chapada de Areia",
+    "description": "Regional de Teste"
+}
+
+// -------------------------------------
+
+// POST /api/vi/areas
+{
+    "regional": "51fe5d0b-149f-43ef-b583-5b86304fa826",
+    "name": "Teste Area",
+    "description": "Teste Area de Colinas"
+}
+
+// -------------------------------------
+
+// POST /api/vi/employees
+{
+    "area": "3975d235-21bf-4903-b3fa-a6f5981e4ef6",
+    "enrollment": 1234,
+    "name": "José Bonifácio da Silva",
+    "gender": "M",
+    "phone": "63998765432"
+}
+
+// -------------------------------------
+
+// POST /api/v1/shifts
+{
+    "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+    "year": 2022,
+    "month": 1
+}
+
+
+// POST /api/v1/shifts/detail
+{
+    "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+    "year": 2022,
+    "month": 2,
+    "employees": [
+        {
+            "id": "22b0bbb6-235d-4f25-920e-02276033f2fa",
+            "leaves": [
+                {
+                    "end_date": "2022-02-10",
+                    "start_date": "2022-02-01"
+                }
+            ]
+        },
+        {
+            "id": "46bd082d-35a2-45db-9286-94f558144515"
+        },
+        {
+            "id": "1ccc6d0b-2981-498d-90b0-02c1a6e34df5"
+        },
+        {
+            "id": "17c0dd0f-b789-4de8-a1ec-ce437e7868c0"
+        },
+        {
+            "id": "236b9eb4-3484-4eda-aaa1-dbe36bd3988d", "mandatory_shifts": ["2022-03-23"]
+        }
+    ]
+}

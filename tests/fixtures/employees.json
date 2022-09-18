@@ -1,0 +1,102 @@
+[
+    {
+        "_id": "22b0bbb6-235d-4f25-920e-02276033f2fa",
+        "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+        "enrollment": 2144,
+        "name": "Paulo de Souza Lima",
+        "gender": "M",
+        "phone": "63984114053",
+        "active": true
+    },
+    {
+        "_id": "46bd082d-35a2-45db-9286-94f558144515",
+        "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+        "enrollment": 9904,
+        "name": "Mário Anthony Tomás Sales",
+        "gender": "M",
+        "phone": "63994165993",
+        "active": true
+    },
+    {
+        "_id": "1ccc6d0b-2981-498d-90b0-02c1a6e34df5",
+        "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+        "enrollment": 7056,
+        "name": "Vitória Joana Olivia da Rosa",
+        "gender": "F",
+        "phone": "63985225433",
+        "active": true
+    },
+    {
+        "_id": "17c0dd0f-b789-4de8-a1ec-ce437e7868c0",
+        "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+        "enrollment": 7422,
+        "name": "Roberto Cauã Castro",
+        "gender": "M",
+        "phone": "63984959096",
+        "active": true
+    },
+    {
+        "_id": "236b9eb4-3484-4eda-aaa1-dbe36bd3988d",
+        "area": "16b6969a-ad04-47d6-a658-33cc6ba2ac4a",
+        "enrollment": 7097,
+        "name": "Otávio Felipe Bernardes",
+        "gender": "M",
+        "phone": "63996554630",
+        "active": true
+    },
+    {
+        "_id": "7225b370-08be-4d38-8986-696fc9eaf454",
+        "area": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "enrollment": 77014,
+        "name": "P1 Antopologia",
+        "gender": "M",
+        "phone": "63996554630",
+        "active": true
+      },
+      {
+        "_id": "f9121d6a-bf04-4ada-807a-0ffafe71af3c",
+        "area": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "enrollment": 77015,
+        "name": "P2 Antopologia",
+        "gender": "F",
+        "phone": "63996554630",
+        "active": true
+      },
+      {
+        "_id": "cf9a1447-1a58-4a22-a0f9-f9ac1126f101",
+        "area": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "enrollment": 77016,
+        "name": "P3 Antopologia",
+        "gender": "F",
+        "phone": "63996554630",
+        "active": true
+      },
+      {
+        "_id": "092be9bb-f4a5-4d4b-a5dd-ad09e2264662",
+        "area": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "enrollment": 77017,
+        "name": "P4 Antopologia",
+        "gender": "F",
+        "phone": "63996554630",
+        "active": true
+      },
+      {
+        "_id": "8c7e1ad8-7378-402e-8e09-275d7c097bf0",
+        "area": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "enrollment": 77018,
+        "name": "P5 Antopologia",
+        "gender": "M",
+        "phone": "63996554630",
+        "active": true
+      },
+      {
+        "_id": "46b44070-2eea-4fcd-b721-2f7258b16a14",
+        "area": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "enrollment": 77019,
+        "name": "P6 Antopologia",
+        "gender": "M",
+        "phone": "63996554631",
+        "active": true
+      }
+    
+]

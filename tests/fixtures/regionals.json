@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "767e8629-97f9-43db-8e11-5379fa5b94f2",
+        "name": "Araguaína",
+        "description": ""
+    },
+    {
+        "_id": "f3d03e0d-8a39-4734-9fba-33a78af61868",
+        "name": "Araguatins",
+        "description": ""
+    },
+    {
+        "_id": "4abebf50-1185-4e09-b6b7-406fcaedef4e",
+        "name": "Arraias",
+        "description": ""
+    },
+    {
+        "_id": "51fe5d0b-149f-43ef-b583-5b86304fa826",
+        "name": "Colinas",
+        "description": ""
+    },
+    {
+        "_id": "dcda7c26-41c6-4672-b529-7db806a7982f",
+        "name": "Dianópolis",
+        "description": ""
+    },
+    {
+        "_id": "1656d903-c38a-450d-ad04-51e0887e2035",
+        "name": "Guaraí",
+        "description": ""
+    },
+    {
+        "_id": "cd81bb1d-6a09-4294-bdb3-08ecf4509635",
+        "name": "Gurupi",
+        "description": ""
+    },
+    {
+        "_id": "823e5a0a-3eac-4887-9455-616de879c5b2",
+        "name": "Miracema",
+        "description": ""
+    },
+    {
+        "_id": "90121948-b720-427b-9f23-3db42cb3b6fc",
+        "name": "Paraíso",
+        "description": ""
+    },
+    {
+        "_id": "3e955f2f-bca8-4212-8ef1-bcdc3e74dfe3",
+        "name": "Porto Nacional",
+        "description": ""
+    },
+    {
+        "_id": "c281e272-abe4-455a-820f-ed6c75211a04",
+        "name": "Tocantinópolis",
+        "description": ""
+    },
+    {
+        "_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "name": "Palmas",
+        "description": ""
+    }
+]
