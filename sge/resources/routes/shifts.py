@@ -15,6 +15,8 @@ from sge.resources.routes.employees import get_employee_data
 from sge.resources.schemas.response import error_schema, response_model
 from sge.resources.schemas.shift import ShiftSchema
 
+from sge.domain.shiftservice import ShiftService
+
 router = APIRouter()
 collection = database.shifts
 
@@ -28,6 +30,31 @@ async def get_shift_data(id: uuid.UUID):
             shift, status.HTTP_200_OK, 'Shift data retrieved successfully')
     return error_schema('Shift doesn\'t exist.', status.HTTP_404_NOT_FOUND)
 
+# Create a shift test
+@router.post(
+    '/test', response_description='Create a new shift',
+    status_code=status.HTTP_201_CREATED)
+async def create_shift_test(shift: ShiftSchema = Body(...)):
+    shift = jsonable_encoder(shift)
+    if await get_list_data(
+            collection, shift_helper, area=shift['area'],
+            year=shift['year'], month=shift['month']):
+        return error_schema('Shift already exists.', status.HTTP_409_CONFLICT)
+    employees = await get_employees_by_area(
+        id=uuid.UUID(shift["area"]), active=True)
+    if not isinstance(employees, JSONResponse):
+        shift['employees'] = employees['data']
+        shift_service = ShiftService()
+        shift['shifts'] = await shift_service.generate(shift)#await generate_shift(shift)
+        return shift['shifts']
+        del shift['employees']
+        response = await add_data(
+            collection, shift_helper, jsonable_encoder(shift))
+        return response_model(
+            response, status.HTTP_201_CREATED, 'Shift created successfully.')
+
+    return error_schema('Cannot found employees to create shift.',
+                        status.HTTP_404_NOT_FOUND)
 
 # Create a shift
 @router.post(
