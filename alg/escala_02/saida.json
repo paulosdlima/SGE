@@ -1,0 +1,14 @@
+{
+    "Escala": [
+     {"Dia": 1, "Servidor": "Tales"},
+      {"Dia": 2, "Servidor": "Paulo"},
+      {"Dia": 3, "Servidor": "Suplente"},
+      {"Dia": 4, "Servidor": "suplente2"},
+      {"Dia": 5, "Servidor": "Tales"},
+      {"Dia": 6, "Servidor": "Fulano"},
+      {"Dia": 7, "Servidor": "Tales"}
+    ],
+    "Fora_de_escala": [
+      "Sicrano"
+    ]
+  }
