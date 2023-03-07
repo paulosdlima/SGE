@@ -1,14 +1,15 @@
 {
-    "Escala": [
-     {"Dia": 1, "Servidor": "Tales"},
-      {"Dia": 2, "Servidor": "Paulo"},
-      {"Dia": 3, "Servidor": "Suplente"},
-      {"Dia": 4, "Servidor": "suplente2"},
-      {"Dia": 5, "Servidor": "Tales"},
-      {"Dia": 6, "Servidor": "Fulano"},
-      {"Dia": 7, "Servidor": "Tales"}
-    ],
-    "Fora_de_escala": [
-      "Sicrano"
-    ]
-  }
+  "Escala": [
+   {"Dia": 1, "Servidor": "Peter Tosh"},
+    {"Dia": 2, "Servidor": "Zeca Pagodinho"},
+    {"Dia": 3, "Servidor": "Jimmy Cliff"},
+    {"Dia": 4, "Servidor": "Volney"},
+    {"Dia": 5, "Servidor": "Peter Tosh"},
+    {"Dia": 6, "Servidor": "Zeca Pagodinho"},
+    {"Dia": 7, "Servidor": "Jimmy Cliff"},
+    {"Dia": 8, "Servidor": "Volney"}
+  ],
+  "Fora_de_escala": [
+    "Bob Marley", "Nirvana", "Sicrano"
+  ]
+}
