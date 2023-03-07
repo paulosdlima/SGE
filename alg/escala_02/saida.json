@@ -1,14 +1,15 @@
 {
-    "Escala": [
-     {"Dia": 1, "Servidor": "Tales"},
-      {"Dia": 2, "Servidor": "Paulo"},
-      {"Dia": 3, "Servidor": "Suplente"},
-      {"Dia": 4, "Servidor": "suplente2"},
-      {"Dia": 5, "Servidor": "Tales"},
-      {"Dia": 6, "Servidor": "Fulano"},
-      {"Dia": 7, "Servidor": "Tales"}
-    ],
-    "Fora_de_escala": [
-      "Sicrano"
-    ]
-  }
+  "Escala": [
+   {"Dia": 1, "Servidor": "Nonata"},
+    {"Dia": 2, "Servidor": "Debora"},
+    {"Dia": 3, "Servidor": "Fátima"},
+    {"Dia": 4, "Servidor": "Marina_suplente"},
+    {"Dia": 5, "Servidor": "Nonata"},
+    {"Dia": 6, "Servidor": "Debora"},
+    {"Dia": 7, "Servidor": "Fátima"},
+    {"Dia": 8, "Servidor": "Marina_suplente"}
+  ],
+  "Fora_de_escala": [
+    "Larisa", "Socorro"
+  ]
+}
