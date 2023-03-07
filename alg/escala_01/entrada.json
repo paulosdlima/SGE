@@ -1,11 +1,12 @@
 {
-    "Servidores": [
-      {"Nome": "Robson", "Nao_trabalhados": [2, 3, 15]},
-      {"Nome": "Anderson", "Nao_trabalhados": [5, 7]},
-      {"Nome": "Franciso", "Nao_trabalhados": [5, 7]},
-      {"Nome": "Paulo", "Nao_trabalhados": [5, 7]},
-      {"Nome": "Paulo", "Nao_trabalhados": [5, 7]},
-      {"Nome": "Fulano", "Nao_trabalhados": []}
-    ],
-    "Qtd_dias_mes": 31
-  } 
+  "Servidores": [
+    {"Nome": "Robson", "Nao_trabalhados": [2,3,4]},
+    {"Nome": "Anderson", "Nao_trabalhados": [3,4,5]},
+    {"Nome": "Francisco", "Nao_trabalhados": [4,5,6]},
+    {"Nome": "Paulo", "Nao_trabalhados": [5,6,7]},
+    {"Nome": "Jatobá", "Nao_trabalhados": [10,11,12]},
+    {"Nome": "Josias", "Nao_trabalhados": []},
+    {"Nome": "Sicrano", "Nao_trabalhados": []}
+  ],
+  "Qtd_dias_mes": 31
+} 
